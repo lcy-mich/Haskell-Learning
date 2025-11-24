@@ -1,2 +1,2 @@
 # Haskell-Learning
-Storing stuff i write to learn haskell
+Storing stuff I write to learn haskell
