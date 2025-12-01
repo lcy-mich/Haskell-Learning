@@ -1,4 +1,3 @@
-import System.Win32 (xBUTTON1, UnicodeSubsetBitfield)
 import Prelude hiding (Just, Maybe)
 data Answer = Yes | No | Unknown
 
