@@ -1,8 +1,6 @@
 import Control.Monad
-main = do
-    contents <- getContents
-    putStr $ shortlines contents
-    
-    where
-        shortlines = unlines . filter (\line -> length line < 10) . lines
-        
+main = interact shortlines
+
+shortlines :: String -> String
+shortlines = unlines . filter (\line -> length line < 10) . lines
+
